@@ -7,7 +7,7 @@ table {
 th:first-child {
 	font-style: italic;
 }
-td:nth-child(2) {
+tbody tr td:nth-child(2) {
 	color:red;	
 }
 td:nth-child(4) {
