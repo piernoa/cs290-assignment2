@@ -1,4 +1,55 @@
-s# test
-* This is the first thing
-* This is the second thing, it's better!
-* This third thing tho
+body {
+	color: #404040;
+}
+table {
+	width: 75%;
+}
+th:first-child {
+	font-style: italic;
+}
+td:nth-child(2) {
+	color:red;	
+}
+td:nth-child(4) {
+	color: blue;	
+}
+
+tr:nth-child(2), tr:nth-child(4), tr:nth-child(6) {
+	background-color: #03C9A9;
+}
+tr:nth-child(3), tr:nth-child(5) {
+	background-color: #59ABE3;
+}
+
+td, th {
+	border: 2px solid #505050;
+	text-align:center;
+}
+
+dl dt:hover + dd{
+	background-color: #9B59B6;
+}
+
+div {
+	margin-top: 20px;
+	width: 75%;
+	background-color: #DB0A5B;
+	border: 1px solid #eb6a5a;
+	margin-bottom: 20px;
+}
+
+div > div {
+	background-color: blue;
+	width: 75%;
+	margin-left:12.5%;
+	text-align:center;
+	border: 1px solid blue;
+	color: white;
+	margin-bottom: 15px;
+}
+
+img {
+	float:left;
+	width: 100px;
+	height: 125px;
+}
